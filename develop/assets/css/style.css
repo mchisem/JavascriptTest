@@ -6,6 +6,17 @@ body     {
     top: 0;
     left: 0;
     background: linear-gradient(to left, rgb(42, 95, 116), seagreen);
+    padding: 1%;
+}
+
+/* sound */
+.fa.fa-volume-up {
+    text-decoration: none;
+    color: white;
+}
+
+.fa.fa-volume-up:hover {
+    cursor: pointer;
 }
 
 /* HIDE */
@@ -16,7 +27,7 @@ body     {
 /* INITIAL DISPLAY */
 #intro {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 18%;
     text-align: center;
     padding: 5px;
     color: white;
@@ -64,6 +75,7 @@ h1 {
     color: white;
     margin-right: 30px;
     font-size: 30px;
+    padding: 1% 0 0 0; 
 }
 
 #exit {
@@ -72,6 +84,7 @@ h1 {
     font-size: 30px;
     float: right;
     top: 0;
+    padding: 1%;
 }
 
 #exit:hover {
@@ -88,11 +101,12 @@ h3 {
 .questions-container {
     position: relative;
     margin: 50px;
-    margin-top: 12%;
+    margin-top: 6%;
     text-align: center;
     padding-bottom: 15px;
     color: black;
     border: 2px solid white;
+    max-width: 100%;
 }
 
 .answer {

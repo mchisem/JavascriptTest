@@ -188,3 +188,12 @@ function userInfo(){
     localStorage.setItem("score", score);
     window.location.href = "highscores.html";
 }
+
+// SOUND
+var sound = document.querySelector("#mySong");
+var soundIcon = document.querySelector(".fa fa-volume-up");
+var hide = document.querySelector(".hide");
+
+// soundIcon.addEventListener("click", () => {
+//     sound.pause();
+// })
