@@ -9,7 +9,9 @@ body     {
     padding: 1%;
 }
 
-/* sound */
+/****************/
+/* SOUNDS */
+/****************/
 .fa.fa-volume-up {
     text-decoration: none;
     color: white;
@@ -19,12 +21,16 @@ body     {
     cursor: pointer;
 }
 
+/****************/
 /* HIDE */
+/****************/
 .hide {
     display: none;
 }
 
+/**********************/
 /* INITIAL DISPLAY */
+/**********************/
 #intro {
     width: 100%;
     margin-top: 18%;
@@ -70,7 +76,9 @@ h1 {
     color: black;
 }
 
+/**********************/
 /*  QUIZ NAVBAR */
+/**********************/
 .top {
     color: white;
     margin-right: 30px;
@@ -92,7 +100,9 @@ h1 {
     cursor: pointer;
 }
 
+/*******************/
 /*  QUIZ  */
+/******************/
 h3 {
     color: white;
     padding-top: 5px;
@@ -153,7 +163,9 @@ button:hover {
     cursor: pointer;
 }
 
-/* end game page */
+/**********************/
+/* END GAME PAGE */
+/**********************/
 .answers-container {
     font-size: 35px;
     color: white;
