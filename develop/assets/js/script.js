@@ -126,16 +126,19 @@ function pickAnswer(e) {
 function checkAnswer(button, correct) {
     if(correct) {
         button.classList.add("right");
-        score+=10;
+        secondsLeft -=0;
+        score +=10;
         highScore.textContent = 'Score: ' + score;
 
     } else {
         button.classList.add("wrong");
         secondsLeft -=5;
+        score -=0;
+        highScore.textContent = 'Score: ' + score;
     }
 }
 
-// next button event listener//
+// next button event listener// choose the next question randomly
 next.addEventListener('click', function(){
     currentQuestion++;
     nextShuffle();
@@ -161,12 +164,14 @@ function endGame() {
   
     var gameOver =
       `
+      <br>
       <h3>Game Over!</h3>
       <div class="answers-container">
         You got ${score}/100
         <div>
             <input id="name" placeholder="Your Name"></input>
             <button class="button" id="submit">Submit</button>
+            <br>
         </div>
       <div>
 
